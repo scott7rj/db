@@ -1,0 +1,113 @@
+function setRawLayout999() {
+    $('#firstdiv').css({'display':'block'});
+    $('#seconddiv').css({'display':'block'});
+    $('#thirddiv').css({'display':'block'});
+    $('#fourthdiv').css({'display':'block'});
+    $('#fifthdiv').css({'display':'block'});
+    $('#sixthdiv').css({'display':'block'});
+    $('#toggleddiv').css({'display':'block'});
+}
+function setInitialLayout999() {
+    //$('#menudiv').css({'width':'90rem','height':'2.2rem','display':'none'}); SETADO EM menu.js
+    $('#firstdiv').css({'width':'25%','height':'20rem','display':'none'});
+    $('#firstdiv').html('');
+    $('#seconddiv').css({'width':'75%','height':'20rem','display':'none'});
+    $('#seconddiv').html('');
+    $('#thirddiv').css({'width':'30%','height':'20rem','display':'none'});
+    $('#thirddiv').html('');
+    $('#fourthdiv').css({'width':'35%','height':'20rem','display':'none'});
+    $('#fourthdiv').html('');
+    $('#fifthdiv').css({'width':'35%','height':'20rem','display':'none'});
+    $('#fifthdiv').html('');
+    $('#sixthdiv').css({'width':'100%','height':'30rem','display':'none'});
+    $('#sixthdiv').html('');
+    $('#toggleddiv').css({'display':'none'});
+    $('#sessiondiv').css({'width':'100%','display':'block'});
+}
+function setDefaultLayout999() {
+    //$('#menudiv').css({'width':'75rem','height':'2.2rem','display':'block'});
+    $('#firstdiv').css({'width':'25%','height':'20rem','display':'none'});
+    $('#seconddiv').css({'width':'75%','height':'20rem','display':'none'});
+    $('#thirddiv').css({'width':'30%','height':'20rem','display':'none'});
+    $('#fourthdiv').css({'width':'35%','height':'20rem','display':'none'});
+    $('#fifthdiv').css({'width':'35%','height':'20rem','display':'none'});
+    $('#sixthdiv').css({'width':'100%','height':'30rem','display':'none'});
+    $('#toggleddiv').css({'display':'none'});
+    $('#sessiondiv').css({'width':'100%','display':'block'});
+}
+function setTwoRowsLayout999(h,h2) {
+    //$('#menudiv').css({'width':'75rem','height':'2.2rem','display':'block'});
+    $('#firstdiv').css({'width':'100%','height':''+h+'','display':'block'});
+    $('#seconddiv').css({'width':'0','height':'0','display':'none'});
+    $('#seconddiv').html('');
+    $('#thirddiv').css({'width':'100%','height':''+h2+'','display':'block'});
+    $('#fourthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#fourthdiv').html('');
+    $('#fifthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#fifthdiv').html('');
+    $('#sixthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#sixthdiv').html('');
+    $('#toggleddiv').css({'display':'block'});
+}
+function setThreeRowsLayout999(h,h2,h3) {
+    //$('#menudiv').css({'width':'75rem','height':'2.2rem','display':'block'});
+    $('#firstdiv').css({'width':'100%','height':''+h+'','display':'block'});
+    $('#seconddiv').css({'width':'0','height':'0','display':'none'});
+    $('#seconddiv').html('');
+    $('#thirddiv').css({'width':'100%','height':''+h2+'','display':'block'});
+    $('#fourthdiv').css({'width':'100%','height':''+h3+'','display':'block'});
+    $('#fifthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#fifthdiv').html('');
+    $('#sixthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#sixthdiv').html('');
+    $('#toggleddiv').css({'display':'block'});
+}
+function setOneByTwoLayout999(h,h2) {
+    //$('#menudiv').css({'width':'75rem','height':'2.2rem','display':'block'});
+    $('#firstdiv').css({'width':'100%','height':''+h+'','display':'block'});
+    $('#seconddiv').css({'width':'0','height':'0','display':'none'});
+    $('#thirddiv').css({'width':'50%','height':''+h2+'','display':'block'});
+    $('#thirddiv').html('');
+    $('#fourthdiv').css({'width':'50%','height':''+h2+'','display':'block'});
+    $('#fourthdiv').html('');
+    $('#fifthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#sixthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#toggleddiv').css({'display':'block'});
+}
+function setOneByThreeLayout999() {
+    //$('#menudiv').css({'width':'75rem','height':'2.2rem','display':'block'});
+    $('#firstdiv').css({'width':'100%','height':'4.2rem','display':'block'});
+    $('#seconddiv').css({'width':'0','height':'0','display':'none'});
+    $('#thirddiv').css({'width':'30%','height':'65rem','display':'block'});
+    $('#thirddiv').html('');
+    $('#fourthdiv').css({'width':'35%','height':'65rem','display':'block'});
+    $('#fourthdiv').html('');
+    $('#fifthdiv').css({'width':'35%','height':'65rem','display':'block'});
+    $('#fifthdiv').html('');
+    $('#sixthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#toggleddiv').css({'display':'block'});
+}
+function setOneRowLayout999(h) {
+    //$('#menudiv').css({'width':'75rem','height':'2.2rem','display':'block'});
+    $('#firstdiv').css({'width':'100%','height':''+h+'','display':'block'});
+    $('#seconddiv').css({'width':'0','height':'0','display':'none'});
+    $('#seconddiv').html('');
+    $('#thirddiv').css({'width':'0','height':'0','display':'none'});
+    $('#thirddiv').html('');
+    $('#fourthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#fourthdiv').html('');
+    $('#fifthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#fifthdiv').html('');
+    $('#sixthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#toggleddiv').css({'display':'block'});
+}
+function setTwoByThreeLayout999(h,h2, h3) {
+    //$('#menudiv').css({'width':'75rem','height':'2.2rem','display':'block'});
+    $('#firstdiv').css({'width':'50%','height':''+h+'','display':'block'});
+    $('#seconddiv').css({'width':'50%','height':''+h+'','display':'block'});
+    $('#thirddiv').css({'width':'100%','height':''+h2+'','display':'block'});
+    $('#fourthdiv').css({'width':'100%','height':''+h3+'','display':'block'});
+    $('#fifthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#sixthdiv').css({'width':'0','height':'0','display':'none'});
+    $('#toggleddiv').css({'display':'block'});
+}

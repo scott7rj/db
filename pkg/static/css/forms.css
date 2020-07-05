@@ -1,0 +1,76 @@
+input[type="text"], input[type="email"], select, input[type="password"] {
+    margin: 0;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    text-transform: none;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    height: 2rem;
+    text-transform: uppercase;
+}
+textarea {
+    margin: 0;
+    padding: 0rem 0rem 0rem 0.2rem;
+    text-transform: none;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    /*height: 1.4rem;*/
+}
+input[type="text"]:disabled {
+    background-color: #CCCCCC;
+    border-color: black;
+}
+input[type="checkbox"] {
+}
+.app-btn {
+    font-size: 1.1rem;
+    border: 2px solid black;
+    background-color: cyan;
+    color: black;
+    height: 2.5rem;
+    font-weight: normal;
+    width: 9rem; /*width: pode estar sendo setado no html */
+    line-height: 1;
+}
+.app-btn:hover {
+    background-color: darkturquoise;
+}
+.app-btn:focus {
+    background-color: darkturquoise;
+}
+.app-btn.a {
+    background-color: #2ECCFA;
+}
+.app-btn.a:hover {
+   background-color: dodgerblue;
+}
+.app-btn.b {
+    background-color: lime;
+}
+.app-btn.b:hover {
+   background-color: limegreen;
+}
+.app-btn.b:focus {
+   background-color: limegreen;
+}
+.app-btn.c {
+    color: black;
+    background-color: #2ECCFA;
+}
+.app-btn.c:hover {
+   color: black;
+   background-color: dodgerblue;
+}
+.app-btn.c:focus {
+    background-color: dodgerblue;
+}
+.app-btn.nok {
+   background-color: #FE642E;
+}
+.app-btn.nok:hover {
+   background-color: red;
+}
+.app-btn.nok:focus {
+   background-color: red;
+}

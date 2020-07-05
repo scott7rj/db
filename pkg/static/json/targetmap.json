@@ -1,0 +1,9 @@
+{
+    "map":[
+        {
+            "profile":"ADM",
+            "script":"static/js/target-adm.js",
+            "fn":"target_ADM"
+        }
+    ]
+}

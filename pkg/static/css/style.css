@@ -1,0 +1,67 @@
+/* MODAL */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    10000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: lime url('../img/loading3.gif') 50% 40% no-repeat;
+    opacity: 0.1;
+}
+body.loading {
+    overflow: hidden;   
+}
+body.loading .modal {
+    display: block;
+}
+.glyphmenu {
+    color: black;
+    font-size: 1rem;
+}
+.glyphmenu.medium {
+    color: black;
+    font-size: 1.2rem;
+}
+.glyphmenu.medium:hover {
+    cursor: pointer;
+}
+.excel_img {
+    display: block;
+    width: 18px;
+    margin: 2px auto 6px auto;
+    float: left;
+    border: 2px solid lime;
+}
+.excel_img:hover {
+    cursor: pointer;
+}
+.pdrilldown {
+    margin:0 auto;
+    padding:5px;
+    display:block;
+    width:90%;
+    background-color: #EEE;
+    border: 1px solid black;
+    text-align:left;
+}
+#splogo {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2ECCFA;
+}
+#splogo2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    /*color: orange;*/
+    color: #2ECCFA;
+}
+#imglogo {
+    margin: -6px 0px 0px 0px;
+    padding: 0;
+}
+#imgfrmwrk {
+    margin: -6px 0px 0px 0px;
+    padding: 0;
+}

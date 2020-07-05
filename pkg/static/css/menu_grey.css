@@ -1,0 +1,109 @@
+/* MENU */
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0.15rem solid black;
+    float: left;
+}
+.menu > li {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    float: left;
+    width: 12rem;
+}
+.menu > li > a {
+    color: black; 
+    text-decoration: none; 
+    margin: 0;
+    padding-top: 1px; 
+    display: block;
+    border: 0.15rem solid black;
+    background-color: #d3d3d3;
+    text-align: center;
+    height: 2.2rem;
+    font-size: 1.1rem;
+} 
+.menu > li > a > img {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+}
+.menu > li > a:hover {
+    background: #999999; 
+    color: black; 
+}
+.menu > li > ul {
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    top: 1.5rem; 
+    left: 3rem;
+    background-color: transparent;
+    border: 0.15rem solid black;
+    display: none;
+    z-index: 900;
+}
+.menu > li > ul > li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    display: block; 
+    width: 15rem;
+}
+.menu > li > ul > li > a {
+    color: black; 
+    text-decoration: none; 
+    margin: 0;
+    padding: 1px 10px 1px 10px; 
+    display: block;
+    border: 0.10rem solid black;
+    background-color: #d3d3d3;
+    height: 2.2rem;
+    font-size: 1.1rem
+}
+.menu > li > ul > li > a:hover {
+    background: #999999; 
+    color: black; 
+}
+.menu > li:hover > ul, .menu > li.over > ul {
+    display: block;
+}
+/* SUBMENU */
+.menu > li > ul >li > ul {
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    top: 1.2rem; 
+    left: 5rem;
+    border: 0.15rem solid black;
+    display: none;
+    z-index: 1000;
+}
+.menu > li > ul > li > ul > li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    display: block; 
+    width: 18rem;
+}
+.menu > li > ul > li > ul > li > a {
+    color: black; 
+    text-decoration: none; 
+    margin: 0;
+    padding: 1px 10px 1px 10px; 
+    display: block;
+    border: 0.10rem solid black;
+    background-color: #d3d3d3;
+    height: 2.2rem;
+    font-size: 1.1rem
+}
+.menu > li ul > li > ul > li > a:hover {
+    background: #999999; 
+    color: black; 
+}
+.menu > li > ul > li:hover ul, .menu > li > ul > li.over ul {
+    display: block;
+}
